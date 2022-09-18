@@ -61,7 +61,7 @@ Response data after 02 command byte:
 |  3     | `x02`                | Unknown. Seems to be always `02`                         |
 |  4-9   | `x7C BB 8A EA 30 57` | Joy-Con MAC address in Big Endian                        |
 |  10    | `x01`                | Unknown. Seems to be always `01`                         |
-|  11    | `x01`                | If `01`, colors in SPI are used. Otherwise default ones. |
+|  11    | `x01`                | If `01`, colors in SPI are used (02 for Pro Controller). Otherwise default ones. |
 
 ### Subcommand 0x03: Set input report mode
 
